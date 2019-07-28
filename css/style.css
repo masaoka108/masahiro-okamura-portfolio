@@ -1,0 +1,32 @@
+body {
+  word-wrap:break-word;
+}
+
+.career-div {
+    float:left;
+    text-align:center;
+    width:25%;
+}
+
+.count-number{
+    font-size:40pt;
+    font-weight: 800;
+}
+
+.japaneseSentence {
+    font-size:12pt;
+}
+
+.dev_img {
+    width:50%;
+}
+
+
+@media (max-width: 767px) {
+    .career-div {
+        float:left;
+        text-align:center;
+        width:100%;
+        margin-bottom:30px;
+    }
+}
