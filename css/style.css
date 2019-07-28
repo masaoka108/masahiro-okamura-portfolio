@@ -21,6 +21,12 @@ body {
     width:50%;
 }
 
+.profile-img-sp {
+    text-align:center;
+    width:100%;
+    display: none;
+}
+
 
 @media (max-width: 767px) {
     .career-div {
@@ -28,5 +34,11 @@ body {
         text-align:center;
         width:100%;
         margin-bottom:30px;
+    }
+
+    .profile-img-sp {
+        text-align:center;
+        width:100%;
+        display: block;
     }
 }
