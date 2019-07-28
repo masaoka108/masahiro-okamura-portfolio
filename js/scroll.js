@@ -62,7 +62,8 @@ $(window).on('scroll', function (){
     var scrollPos = $(window).scrollTop();
     var wh = $(window).height();
 
-    if(scrollPos > elemOffset - wh + (wh / 5) ){
+    // if(scrollPos > elemOffset - wh + (wh / 5) ){
+    if(scrollPos > elemOffset - wh){
         barAnimate($(this));
     }
   });
@@ -73,7 +74,8 @@ $(window).on('scroll', function (){
       var scrollPos = $(window).scrollTop();
       var wh = $(window).height();
 
-      if(scrollPos > elemOffset - wh + (wh / 4) ){
+      // if(scrollPos > elemOffset - wh + (wh / 4) ){
+      if(scrollPos > elemOffset - wh ){
           funcCallback(obj);
           return true;
       }

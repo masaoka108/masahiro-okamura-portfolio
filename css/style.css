@@ -9,7 +9,7 @@ body {
 }
 
 .count-number{
-    font-size:40pt;
+    font-size:60pt;
     font-weight: 800;
 }
 
@@ -29,6 +29,11 @@ body {
 
 
 @media (max-width: 767px) {
+
+    .dev_img {
+        width:100%;
+    }
+
     .career-div {
         float:left;
         text-align:center;
